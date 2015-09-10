@@ -1,0 +1,357 @@
+#activity_root .activity,
+#questions_root .question {
+    padding: 12px 0 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    float: left;
+    width: 700px;
+    overflow: hidden;
+}
+
+#questions_root .question .stats_container {
+    vertical-align: top;
+    float: left;
+    margin-right: 10px;
+    width: 180px;
+    cursor: pointer;
+}
+
+#questions_root .question .stats_container .votes {
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    margin: 0 3px 0 0;
+    font-size: 11px;
+    color: #777;
+    padding: 5px 5px 6px 5px;
+    text-align: center;
+}
+
+#questions_root .question .stats_container .count {
+    font-size: 17px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 4px;
+}
+
+#questions_root .question .stats_container .views {
+    max-width: 40px;
+    display: inline-block;
+    height: 38px;
+    width: 40px;
+    margin: 0 7px 0 0;
+    font-size: 11px;
+    color: #777;
+    padding: 5px 5px 6px 5px;
+    text-align: center;
+}
+
+#questions_root .question .stats_container .status {
+    display: inline-block;
+    margin: 0 3px 0 0;
+    width: 44px;
+    height: auto;
+    font-size: 11px;
+    padding: 6px;
+    text-align: center;
+}
+
+
+#questions_root .question .stats_container .answered div {
+    color: white;
+}
+
+#questions_root .question .stats_container .answered {
+    background-color: #75845c;
+    color: #fff;
+}
+
+#questions_root .question .desc {
+    width: 500px;
+    padding: 0;
+    float: left;
+}
+
+#activity_root .activity .question h3,
+#questions_root .question .desc h3 {
+    margin-bottom: .35em;
+    margin-top: .0em;
+    line-height: 1.3;
+}
+#activity_root .activity .question h3 a,
+#questions_root .question .desc h3 a {
+    color: #07c;
+    line-height: 1.3;
+    margin-bottom: 1.2em;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#activity_root .activity .question .tags,
+#questions_root .question .desc .tags {
+    line-height: 18px;
+    float: left;
+}
+
+#achievement_root .achievement .activities .tags .tag_container .post-tag,
+#activity_root .activity .question .tags .post-tag,
+#questions_root .question .desc .tags .post-tag {
+    color: #3e6d8e;
+    font-size: 12px;
+    white-space: nowrap;
+    background: #e4edf4;
+    border: 1px solid #e4edf4;
+    display: inline-block;
+    margin: 2px 2px 2px 0;
+    border-radius: 0;
+    -webkit-transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
+    padding: .4em .5em;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+
+#questions_root .question .desc .owner {
+    width: auto;
+    line-height: inherit;
+    padding-top: 4px;
+    white-space: nowrap;
+    float: right;
+    color: #999;
+}
+
+#questions_root .question .desc .owner a {
+    font-size: 12px;
+    color: #07c;
+}
+
+#questions_root .question .desc .owner span {
+    font-size: 12px;
+    margin-right: 2px;
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+#activity_root .activity .owner {
+    float: left;
+    width: 120px;
+}
+
+#activity_root .activity .owner .img {
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+}
+
+#activity_root .activity .owner .img img {
+    width: 68px;
+    height: 68px;
+    border: 0;
+    text-align: center;
+}
+
+#activity_root .activity .owner .img span {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    overflow: hidden;
+    margin-bottom: 3px;
+    border-radius: 34px;
+    text-align: center;
+}
+#activity_root .activity .name,
+#activity_root .activity .reputation {
+    text-align: center;
+}
+
+#achievement_root .achievement .owner .reputation,
+#activity_root .activity .question .info,
+#activity_root .activity .reputation {
+    font-size: 80%;
+}
+
+#activity_root .activity .question {
+    float:left;
+    width: 570px;
+}
+
+#activity_root .activity .question h3 a {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#activity_root .activity .question .info {
+    padding: 0px 0 15px;
+}
+
+#achievement_root .achievement {
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#achievement_root .achievement .owner {
+    float: left;
+    width: 140px;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#achievement_root .achievement .owner .reputation {
+    margin: 5px 0px; 10px;
+}
+
+#achievement_root .achievement .owner .badges {
+}
+
+#achievement_root .achievement .owner .badges .gold,
+#achievement_root .achievement .owner .badges .silver,
+#achievement_root .achievement .owner .badges .bronze {
+    padding: 7px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 1px
+}
+
+#achievement_root .achievement .owner .badges .gold {
+    background: #fff8e2;
+    border: 1px solid #ece3c8;
+}
+
+#achievement_root .achievement .owner .badges .silver {
+    background: #edeeef;
+    border: 1px solid #e0e1e3;
+}
+
+#achievement_root .achievement .owner .badges .bronze {
+    background: #f9ebe1;
+    border: 1px solid #f1decc;
+}
+
+#achievement_root .achievement .owner .badges .badge {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-image: none;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+    top: -1px;
+}
+
+#achievement_root .achievement .owner .badges .gold .badge {
+    background: #fc0;
+}
+
+#achievement_root .achievement .owner .badges .silver .badge {
+    background: #c5c5c5;
+}
+
+#achievement_root .achievement .owner .badges .bronze .badge {
+    background: #c96;
+}
+
+#achievement_root .achievement .owner .badges .count {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#achievement_root .achievement .activities {
+    float: left;
+    width: 540px;
+}
+
+#achievement_root .achievement .activities .questions,
+#achievement_root .achievement .activities .answers,
+#achievement_root .achievement .activities .tags {
+    float: left;
+    width: 100%;
+}
+
+#achievement_root .achievement .activities .answers,
+#achievement_root .achievement .activities .tags {
+    padding-top: 10px;
+}
+
+
+#achievement_root .achievement .activities .headline {
+    font-weight: 700;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.3;
+    padding-top: 15px;
+}
+
+#achievement_root .achievement .activities .activity {
+    padding: 14px 0 13px 0;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 13px;
+    width:100%;
+    float:left;
+}
+
+#achievement_root .achievement .activities .score {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.3;
+    text-align: center;
+    color: #777;
+    min-width: 36px;
+    height: auto;
+    padding: 3px 6px;
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #b9b9b9;
+    border-radius: 2px;
+    float: left;
+}
+
+#achievement_root .achievement .activities a {
+    float: left;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    width: 79%;
+    margin-bottom: 0
+    padding-top: 4px;
+}
+
+#achievement_root .achievement .activities .tags .line {
+    background: #f3f6f8;
+    margin-bottom: 5px;
+    height: auto;
+    padding: 0;
+}
+
+#achievement_root .achievement .activities .tags .tag_container {
+    height: 54px;
+    padding: 10px;
+    position: relative;
+    width: 45%;
+    float: left;
+}
+
+#achievement_root .achievement .activities .tags .tag_container .post-tag {
+}
+
+#achievement_root .achievement .activities .tags .tag_container .stats {
+    float: right;
+}
+
+#achievement_root .achievement .activities .tags .tag_container .stats .num {
+    font-size: 10px;
+    font-weight: 700;
+    color: #666;
+    text-align: right
+}
+
+#achievement_root .achievement .activities .tags .tag_container .stats .num span {
+    font-size: 10px;
+    font-weight: 700;
+    color: #aaa;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
