@@ -17,9 +17,6 @@ Simple usages
     
         questions_root = $("#questions_root");
         CreateQuestionsFeed(questions_root);
-    
-        tagged_root  = $("#tagged_root");
-        CreateTaggedQuestionsFeed(tagged_root);
     });
 
 [Live example](http://chabanovsky.com/2015/09/stackexchange-api-for-communities/).
